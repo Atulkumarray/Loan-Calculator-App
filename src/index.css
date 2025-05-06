@@ -1,0 +1,13 @@
+/* src/index.css */
+
+/* Light mode styles */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode styles */
+body[data-theme='dark'] {
+  background-color: #121212;
+  color: white;
+}
